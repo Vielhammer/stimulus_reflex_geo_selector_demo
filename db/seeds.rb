@@ -1,7 +1,21 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Region.create!(name:"Africa")
+Region.create!(name:"Americas")
+Region.create!(name:"Asia")
+Region.create!(name:"Europe")
+Region.create!(name:"Oceania")
+
+Subregion.create!(name:"Central Africa", region: Region.first)
+Subregion.create!(name:"Eastern Africa", region: Region.first)
+Subregion.create!(name:"Northern Africa", region: Region.first)
+Subregion.create!(name:"Southern Africa", region: Region.first)
+Subregion.create!(name:"Western Africa", region: Region.first)
+
+Country.create!(name:"Angola", subregion: Subregion.first)
+Country.create!(name:"Cameroon", subregion: Subregion.first)
+Country.create!(name:"Central African Republic", subregion: Subregion.first)
+Country.create!(name:"Chad", subregion: Subregion.first)
+Country.create!(name:"Democratic Republic of the Congo", subregion: Subregion.first)
+Country.create!(name:"Republic of the Congo", subregion: Subregion.first)
+Country.create!(name:"Equatorial Guinea", subregion: Subregion.first)
+Country.create!(name:"Gabon", subregion: Subregion.first)
+Country.create!(name:"São Tomé and Príncipe", subregion: Subregion.first)

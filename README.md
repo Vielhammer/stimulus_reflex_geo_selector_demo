@@ -5,20 +5,10 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 3.0.0
 
-* System dependencies
+* Rails version 6.1.1
 
-* Configuration
+* Make sure to run db:seed
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* **Please note**: I only built out the subregions for Africa and the countries for Central Africa. I like data as much as the next person, but this is strictly for demonstration purposes of how to connect to models so I stopped there.
