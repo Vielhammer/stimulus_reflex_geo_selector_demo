@@ -14,9 +14,9 @@
 I had a lot of questions when starting Stimulus Reflex. The Geo-Selector Feature in the Expo (https://expo.stimulusreflex.com/) was fascinating. I've seen a lot of questions out there regarding this. 
 
 There are four pieces that make this work:
-geo_selector_reflex.rb
-geo_selector_controller.js
-pages/home.html.erb
-helpers/pages_helper.rb
+* geo_selector_reflex.rb
+* geo_selector_controller.js
+* pages/home.html.erb
+* helpers/pages_helper.rb
 
 Hopefully someone finds this helpful.
