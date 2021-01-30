@@ -20,3 +20,5 @@ export default class extends ApplicationController {
       this.detailPlaceholderTarget.hidden = false
   }
 }
+
+// The controller strictly unhides the next drop-down
